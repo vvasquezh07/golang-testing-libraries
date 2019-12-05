@@ -16,6 +16,7 @@ func TestShouldReturnAMessageUsingTestify(t *testing.T) {
 	assert.NotNil(current)
 }
 
+// Table driven test
 func TestShouldReturnASumUsingTestify(t *testing.T) {
 	assert := assert.New(t)
 
