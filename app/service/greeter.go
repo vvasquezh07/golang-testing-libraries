@@ -1,4 +1,3 @@
-
 package service
 
 // struct - interface structure
