@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestShouldReturnAMessageUsingTestify(t *testing.T) {
+func TestShouldReturnAMessage(t *testing.T) {
 	assert := assert.New(t)
 
 	var expected string = "Hello World"
@@ -17,7 +17,7 @@ func TestShouldReturnAMessageUsingTestify(t *testing.T) {
 }
 
 // Table driven test
-func TestShouldReturnASumUsingTestify(t *testing.T) {
+func TestShouldReturnASum(t *testing.T) {
 	assert := assert.New(t)
 
 	var tests = []struct {
